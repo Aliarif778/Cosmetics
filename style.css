@@ -57,7 +57,7 @@ img {
 }
 
 .navbar .logo {
-  font-size: 2rem;
+  width: 150px;
 }
 
 .navbar ul {
@@ -310,6 +310,9 @@ img {
 }
 
 @media (max-width: 450px) {
+  .navbar .logo {
+    width: 100px;
+  }
   .section-c .gallery {
     grid-auto-rows: 30px;
   }
