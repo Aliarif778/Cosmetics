@@ -1,7 +1,7 @@
 :root {
   --primary-color: #333;
   --secondary-color: #444;
-  --overlay-color: rgba(0, 0, 0, 0.7);
+  --overlay-color: rgba(0, 0, 0, 0.8);
 }
 
 * {
@@ -98,7 +98,7 @@ img {
 
 .section-b {
   position: relative;
-  background: url("images/4.png") no-repeat bottom center/cover;
+  background: url("images/cover4.jpg") no-repeat bottom center/cover;
   height: 600px;
 }
 
@@ -145,20 +145,17 @@ img {
   grid-row: 1/7;
   grid-column: 1/6;
 }
-
-.section-c .gallery a:nth-child(5) {
-  grid-row: 4/7;
-  grid-column: 6/10;
+.section-c .gallery a:nth-child(3) {
+  grid-row: 1/4;
+  grid-column: 6/9;
 }
-
 .section-c .gallery a:nth-child(4) {
   grid-row: 4/7;
   grid-column: 10/13;
 }
-
-.section-c .gallery a:nth-child(3) {
-  grid-row: 1/4;
-  grid-column: 6/9;
+.section-c .gallery a:nth-child(5) {
+  grid-row: 4/7;
+  grid-column: 6/10;
 }
 
 .section-c .gallery img,
